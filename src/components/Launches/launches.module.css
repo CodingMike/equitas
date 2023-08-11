@@ -1,6 +1,10 @@
-.page{
-    height: 150px;
-    width:350px;
-    text-align: center;
-    padding-top: 10px;
+.page .launchName {
+  font-size: 1.2rem;
+}
+
+.page .id,
+.page .flightNum,
+.page .launchDate {
+  font-size: 1rem;
+  margin: 6px 0;
 }

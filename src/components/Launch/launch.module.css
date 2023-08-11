@@ -1,5 +1,58 @@
+.launchContainer {
+  margin: 10px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 3px 3px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 320px;
+  background-color: white;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+  height: 95%;
+}
 
-.launchTitle{
-    font-weight: bold;
-    font-size: large;
+.launchContainer {
+  background-color: #eeeeee !important;
+}
+
+.expanded {
+  height: auto;
+  overflow-y: scroll;
+}
+
+.launchContainer::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.launchHeader {
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.launchInfo {
+  font-size: 1rem;
+  margin: 10px 0 10px 0 !important;
+}
+
+.id {
+  margin-bottom: 1rem;
+}
+
+.flightNum {
+  margin-bottom: 1rem;
+}
+
+.launchDate {
+  margin-bottom: 1rem;
+}
+
+.moreInfoText {
+  margin-right: auto;
+  align-self: center;
+  font-style: italic;
 }
